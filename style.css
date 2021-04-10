@@ -1,0 +1,42 @@
+
+.form-container {
+  float: right;
+  position: relative;
+}
+
+.err-msg {
+  display: hidden;
+  display: none;
+}
+
+.display-container {
+  position: absolute;
+}
+
+.temp {
+  font-size: 10rem;
+  font-weight: 500;
+}
+
+.temp::after {
+  content: '\00B0 F';
+  font-size: 3rem;
+  position: absolute;
+}
+
+.feels-like {
+  position: relative;
+}
+
+.feels-like::after {
+  content: '\00B0 F';
+  position: absolute;
+  font-size: .75rem;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 1.5rem;
+}
